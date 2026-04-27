@@ -20,7 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Define spots left
         const spotsLeft = details.max_participants - details.participants.length;
-
+        
+        // Create activity card content
         activityCard.innerHTML = `
           <h4>${name}</h4>
           <p>${details.description}</p>
