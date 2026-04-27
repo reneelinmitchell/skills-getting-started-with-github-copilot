@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const activityCard = document.createElement("div");
         activityCard.className = "activity-card";
 
+        // Define spots left
         const spotsLeft = details.max_participants - details.participants.length;
 
         activityCard.innerHTML = `
