@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
         `;
 
-        // Append activity card to the list 
+        // Append activity card to the activities list 
         activitiesList.appendChild(activityCard);
 
         // Add option to select dropdown

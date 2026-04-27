@@ -93,7 +93,7 @@ section h3 {
   margin: 0;
 }
 
-/* style the participants list */
+/* style the participants list in each activity card */
 .participants-list li {
   margin-bottom: 4px;
   color: #424141;
