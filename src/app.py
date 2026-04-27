@@ -103,7 +103,7 @@ def signup_for_activity(activity_name: str, email: str):
         raise HTTPException(status_code=400, detail="Student already signed up")
 
     # Validate activity has space available
-    # Removing the below to see if Mona will answer now
+    # Removing the below until it's needed, since it makes testing more difficult
     #if len(activity["participants"]) >= activity["max_participants"]:
     #    raise HTTPException(status_code=400, detail="Activity is at full capacity")
 
